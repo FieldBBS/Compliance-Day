@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Quiz Evento</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- animação de fundo -->
+<div class="background"></div>
+
+<div class="container">
+
+  <!-- LOGO -->
+  <img src="logo.png" class="logo">
+  <br>
+
+  <h1>QUIZ</h1>
+  <br>
+
+  <div id="inicio">
+    <input id="nome" placeholder="Digite seu nome">
+    <br>
+    <br>
+    <button onclick="comecar()">Começar</button>
+
+    <div class="ranking">
+      <h3>🏆 Ranking</h3>
+      <ul id="ranking"></ul>
+    </div>
+    <br>
+    <br>
+    <div class="explicacao">
+      <h3>🎯 Instruções - Caça às Red Flags</h3>
+    <p>
+    Identifique situações suspeitas do dia a dia corporativo.
+    </p>
+
+    <h4>📊 Pontuação</h4>
+    <p>✔ Acertou Red Flag: +10 pontos</p>
+    <p>✔ Acertou Risco: +20 pontos</p>
+    <p>❌ Erro: 0 pontos</p>
+
+    <h4>🏆 Classificação</h4>
+    <p>🥇 Guardião do Compliance — 120 a 150 pontos</p>
+    <p>🥈 Radar de Riscos — 90 a 119 pontos</p>
+    <p>🥉 Olhar Atento — 60 a 89 pontos</p>
+    <p>📘 Em Desenvolvimento — 30 a 59 pontos</p>
+    <p>⚠️ Atenção — abaixo de 29 pontos</p>
+
+    <h4>🏆 Premiação</h4>
+    <p>🥇 Os melhores colocados serão sorteados.</p>
+</div>
+  </div>
+
+  <div id="quiz" style="display:none;">
+    <h2 id="pergunta"></h2>
+    <div id="opcoes"></div>
+  </div>
+
+  <div id="resultado" style="display:none;">
+    <h2 id="placar"></h2>
+    <button onclick="reiniciar()">Voltar</button>
+  </div>
+
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>

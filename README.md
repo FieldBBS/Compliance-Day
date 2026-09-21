@@ -30,13 +30,13 @@ Aplicação web desenvolvida em HTML, CSS e JavaScript para treinamento gamifica
 
 ## 📁 Estrutura
 
-├── quiz.html
-├── style.css
-├── script.js
-├── logo.png
-└── README.md
+- quiz.html
+- style.css
+- script.js
+- logo.png
+- README.md
 
 ## 👷‍♂️👷 Criado por e Editado por:
 - Arthur Aiala Leite Silva
-- João Emanuel Tavares Correa
+- João Emanuel Tavares Correa - @joaoe1
 

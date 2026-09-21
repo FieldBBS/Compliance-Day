@@ -1,24 +1,24 @@
 let perguntasOriginal = [
-  { pergunta: "Situação: Um fornecedor envia um presente caro antes da renovação de contrato. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: true, opcoes: ["Baixa produtividade","Conflito de interesses","Nenhum","Erro operacional"], respostaRisco: 1 },
-  { pergunta: "Situação: Um gestor dá feedback crítico, em particular, de forma respeitosa. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: false, opcoes: ["Conflito de interesses","Nenhum","Assédio moral","Fraude"], respostaRisco: 1 },
-  { pergunta: "Situação: Compartilhamento de login para agilizar atividade. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: true, opcoes: ["Segurança da informação","Nenhum","Engajamento baixo","Cortesia corporativa"], respostaRisco: 0 },
-  { pergunta: "Situação: Uso do canal de denúncia para relatar situação inadequada.\n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: false, opcoes: ["Vazamento de dados","Assédio","Nenhum","Fraude"], respostaRisco: 2 },
-  { pergunta: "Situação: Ajustar números do relatório para bater meta. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: true, opcoes: ["Conflito","Nenhum","Inovação","Fraude / manipulação"], respostaRisco: 3 },
-  { pergunta: "Situação: Reconhecimento público de bom desempenho. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: false, opcoes: ["Conflito","Fraude","Nenhum","Assédio"], respostaRisco: 2 },
-  { pergunta: "Situação: Pedido para alterar data de documento. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: true, opcoes: ["Nenhum","Comunicação","Falsificação documental","Mercado"], respostaRisco: 2 },
-  { pergunta: "Situação: Discussão firme em reunião com respeito. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: false, opcoes: ["Assédio","Nenhum","Conflito","Fraude"], respostaRisco: 1 },
-  { pergunta: "Situação: Piadas constrangedoras recorrentes. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: true, opcoes: ["Nenhum","Lavagem","Assédio moral","Conflito"], respostaRisco: 2 },
-  { pergunta: "Situação: Recusa em participar de prática irregular e reporte. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: false, opcoes: ["Fraude","Conflito","Nenhum","Assédio"], respostaRisco: 2 },
-  { pergunta: "Situação: Despesa incompatível com comprovantes. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: true, opcoes: ["Nenhum","Alinhamento","Fraude em reembolso","Agenda"], respostaRisco: 2 },
-  { pergunta: "Situação: Brinde institucional dentro da política. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: false, opcoes: ["Assédio","Conflito","Lavagem","Nenhum"], respostaRisco: 3 },
-  { pergunta: "Situação: Pressão para aprovar sem seguir fluxo. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: true, opcoes: ["Nenhum","Equipe","Não conformidade","Governança"], respostaRisco: 2 },
-  { pergunta: "Situação: Discordância respeitosa entre áreas. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: false, opcoes: ["Nenhum","Assédio","Fraude","Conflito"], respostaRisco: 0 },
-  { pergunta: "Situação: Envio de contrato para e-mail pessoal. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: true, opcoes: ["Nenhum","Segurança da informação","Inadimplência","Produtividade"], respostaRisco: 1 },
-  { pergunta: "Situação: Influência em contratação por amizade. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: true, opcoes: ["LGPD","Nenhum","Conflito de interesses","Cambial"], respostaRisco: 2 },
-  { pergunta: "Situação: Reuniões com decisões registradas e transparentes. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: false, opcoes: ["Nenhum","Fraude","Assédio","Conflito"], respostaRisco: 0 },
-  { pergunta: "Situação: Líder pede para ignorar due diligence. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: true, opcoes: ["Nenhum","Ergonômico","Desmotivação","Risco de integridade"], respostaRisco: 3 },
-  { pergunta: "Situação: Gestor orienta não seguir denúncia para evitar desgaste. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: true, opcoes: ["Nenhum","Organização","Comportamento inadequado","Prioridade"], respostaRisco: 2 },
-  { pergunta: "Situação: Durante uma reunião, uma pessoa discorda da proposta de outra de forma bastante firme. Não há ofensas, ironias nem exposição vexatória, e o debate permanece restrito ao tema técnico. \n\Isso é uma red flag? ✅ Sim / ❌ Não", redflag: false, opcoes: ["Assédio","Nenhum","Conflito","Discriminação"], respostaRisco: 1 }
+  { pergunta: "Um fornecedor envia um presente caro antes da renovação de contrato.", redflag: true, opcoes: ["Baixa produtividade","Conflito de interesses","Nenhum","Erro operacional"], respostaRisco: 1 },
+  { pergunta: "Um gestor dá feedback crítico, em particular, de forma respeitosa.", redflag: false, opcoes: ["Conflito de interesses","Nenhum","Assédio moral","Fraude"], respostaRisco: 1 },
+  { pergunta: "Compartilhamento de login para agilizar atividade.", redflag: true, opcoes: ["Segurança da informação","Nenhum","Engajamento baixo","Cortesia corporativa"], respostaRisco: 0 },
+  { pergunta: "Uso do canal de denúncia para relatar situação inadequada.", redflag: false, opcoes: ["Vazamento de dados","Assédio","Nenhum","Fraude"], respostaRisco: 2 },
+  { pergunta: "Ajustar números do relatório para bater meta.", redflag: true, opcoes: ["Conflito","Nenhum","Inovação","Fraude / manipulação"], respostaRisco: 3 },
+  { pergunta: "Reconhecimento público de bom desempenho.", redflag: false, opcoes: ["Conflito","Fraude","Nenhum","Assédio"], respostaRisco: 2 },
+  { pergunta: "Pedido para alterar data de documento.", redflag: true, opcoes: ["Nenhum","Comunicação","Falsificação documental","Mercado"], respostaRisco: 2 },
+  { pergunta: "Discussão firme em reunião com respeito.", redflag: false, opcoes: ["Assédio","Nenhum","Conflito","Fraude"], respostaRisco: 1 },
+  { pergunta: "Piadas constrangedoras recorrentes.", redflag: true, opcoes: ["Nenhum","Lavagem","Assédio moral","Conflito"], respostaRisco: 2 },
+  { pergunta: "Recusa em participar de prática irregular e reporte.", redflag: false, opcoes: ["Fraude","Conflito","Nenhum","Assédio"], respostaRisco: 2 },
+  { pergunta: "Despesa incompatível com comprovantes.", redflag: true, opcoes: ["Nenhum","Alinhamento","Fraude em reembolso","Agenda"], respostaRisco: 2 },
+  { pergunta: "Brinde institucional dentro da política.", redflag: false, opcoes: ["Assédio","Conflito","Lavagem","Nenhum"], respostaRisco: 3 },
+  { pergunta: "Pressão para aprovar sem seguir fluxo.", redflag: true, opcoes: ["Nenhum","Equipe","Não conformidade","Governança"], respostaRisco: 2 },
+  { pergunta: "Discordância respeitosa entre áreas.", redflag: false, opcoes: ["Nenhum","Assédio","Fraude","Conflito"], respostaRisco: 0 },
+  { pergunta: "Envio de contrato para e-mail pessoal.", redflag: true, opcoes: ["Nenhum","Segurança da informação","Inadimplência","Produtividade"], respostaRisco: 1 },
+  { pergunta: "Influência em contratação por amizade.", redflag: true, opcoes: ["LGPD","Nenhum","Conflito de interesses","Cambial"], respostaRisco: 2 },
+  { pergunta: "Reuniões com decisões registradas e transparentes.", redflag: false, opcoes: ["Nenhum","Fraude","Assédio","Conflito"], respostaRisco: 0 },
+  { pergunta: "Líder pede para ignorar due diligence.", redflag: true, opcoes: ["Nenhum","Ergonômico","Desmotivação","Risco de integridade"], respostaRisco: 3 },
+  { pergunta: "Gestor orienta não seguir denúncia para evitar desgaste.", redflag: true, opcoes: ["Nenhum","Organização","Comportamento inadequado","Prioridade"], respostaRisco: 2 },
+  { pergunta: "Durante uma reunião, uma pessoa discorda da proposta de outra de forma bastante firme. Não há ofensas, ironias nem exposição vexatória, e o debate permanece restrito ao tema técnico.", redflag: false, opcoes: ["Assédio","Nenhum","Conflito","Discriminação"], respostaRisco: 1 }
 ];
 
 let perguntas = [];
@@ -36,14 +36,14 @@ function comecar() {
   nomeJogador = document.getElementById("nome").value.trim();
 
   if (!nomeJogador) {
-    alert("Digite um nome!");
+    alert("Digite seu nome, sobrenome e setor");
     return;
   }
 
   let ranking = JSON.parse(localStorage.getItem("ranking")) || [];
 
   if (ranking.some(r => r.nome.toLowerCase() === nomeJogador.toLowerCase())) {
-    alert("Esse nome já jogou!");
+    alert("Ei, você já jogou, deixe o próximo da fila jogar também!");
     return;
   }
 
@@ -62,21 +62,23 @@ function comecar() {
 function mostrarPergunta() {
   let p = perguntas[indice];
 
-  document.getElementById("pergunta").innerHTML = `
+  document.getElementById("pergunta").innerHTML =  `
   <div class="card">
     <div class="tag">SITUAÇÃO</div>
     <div class="card-title">${p.pergunta}</div>
-  </div>
-`;
+  </div>`;
+  document.getElementById("perguntared").hidden = true; //Esconder "ISSO É UMA RED FLAG?"
 
 
   if (etapa === "redflag") {
+    document.getElementById("perguntared").hidden = false; //Mostrar "ISSO É UMA RED FLAG?"
+    document.getElementById("")
     document.getElementById("opcoes").innerHTML = `
-      <button onclick="responderRedflag(true)">✅ Sim</button><br>
-      <button onclick="responderRedflag(false)">❌ Não</button>
+      <button onclick="responderRedflag(true)">Sim 😁👌</button><br>
+      <button onclick="responderRedflag(false)">Não 😶👎</button>
     `;
   } else {
-    let html = "<h3>Qual o risco?</h3>";
+    let html = "<h2>Qual o risco?</h2>";
     p.opcoes.forEach((op, i) => {
       html += `<button onclick="responderRisco(${i})">${op}</button><br>`;
     });

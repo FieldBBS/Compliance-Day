@@ -3,10 +3,11 @@
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
-  <title>Quiz Evento</title>
+  <title>Compliance Day</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.png"
 </head>
 
 <body>
@@ -24,27 +25,27 @@
   <br>
 
   <div id="inicio">
-    <input id="nome" placeholder="Digite seu nome">
+    <input id="nome" placeholder="Digite nome, sobrenome e setor">
     <br>
     <br>
     <button onclick="comecar()">Começar</button>
 
-    <div class="ranking">
-      <h3>🏆 Ranking</h3>
-      <ul id="ranking"></ul>
-    </div>
     <br>
     <br>
     <div class="explicacao">
       <h3>🎯 Instruções - Caça às Red Flags</h3>
     <p>
-    Identifique situações suspeitas do dia a dia corporativo.
+    <strong>Identifique situações suspeitas do dia a dia corporativo.</strong>
     </p>
+
+    <br>
 
     <h4>📊 Pontuação</h4>
     <p>✔ Acertou Red Flag: +10 pontos</p>
     <p>✔ Acertou Risco: +20 pontos</p>
     <p>❌ Erro: 0 pontos</p>
+
+    <br>
 
     <h4>🏆 Classificação</h4>
     <p>🥇 Guardião do Compliance — 120 a 150 pontos</p>
@@ -53,13 +54,18 @@
     <p>📘 Em Desenvolvimento — 30 a 59 pontos</p>
     <p>⚠️ Atenção — abaixo de 29 pontos</p>
 
-    <h4>🏆 Premiação</h4>
-    <p>🥇 Os melhores colocados serão sorteados.</p>
-</div>
+    <br>
+  </div>
+
+    <div class="ranking">
+      <h3>🏆 Ranking 🏆</h3>
+      <ul id="ranking"></ul>
+    </div>
   </div>
 
   <div id="quiz" style="display:none;">
     <h2 id="pergunta"></h2>
+    <h2 id="perguntared">Isso é uma RED FLAG?</h2>
     <div id="opcoes"></div>
   </div>
 
@@ -70,8 +76,11 @@
 
 </div>
 
-<!-- JS -->
-<script src="script.js"></script>
+<script 
+  
+  src="script.js">
+
+</script>
 
 </body>
 </html>

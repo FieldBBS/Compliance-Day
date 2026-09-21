@@ -38,5 +38,5 @@ Aplicação web desenvolvida em HTML, CSS e JavaScript para treinamento gamifica
 
 ## 👷‍♂️👷 Criado por e Editado por:
 - Arthur Aiala Leite Silva
--João Emanuel Tavares Correa
+- João Emanuel Tavares Correa
 

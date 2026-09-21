@@ -37,3 +37,7 @@ Aplicação web desenvolvida em HTML, CSS e JavaScript para treinamento gamifica
 ├── script.js
 ├── logo.png
 └── README.md
+
+## 👷‍♂️👷 Criado por e Editado por:
+- Arthur Aiala Leite Silva
+-João Emanuel Tavares Correa
